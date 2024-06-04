@@ -1,0 +1,6 @@
+[27-Jan-2022 15:10:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nguyenti35/public_html/account/Login_user.php on line 157
+[27-Jan-2022 15:10:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/nguyenti35/public_html/account/Login_user.php on line 157
+[29-May-2022 08:32:06 Asia/Ho_Chi_Minh] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/trumsubr/public_html/config/config.php on line 5
+[26-Jun-2022 14:37:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/tlikesub26xyz/public_html/account/Profile.php on line 165
+[26-Jun-2022 15:27:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/tlikesub26xyz/public_html/account/History-Profile.php on line 84
+[22-Nov-2022 13:38:04 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/btshxuct/public_html/config/config.php on line 4

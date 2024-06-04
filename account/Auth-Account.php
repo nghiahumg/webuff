@@ -1,0 +1,5 @@
+<?php require ('../config/function.php');if($NTD->site('bao_tri')=="OFF"){header('Location: /bao_tri');exit;}if($NTD->check_ip(getip())=="block"){header('Location: /BAND-IP');exit;}if(isset($_SESSION['username'])){header('Location: /home');exit;}$status_site=$NTD->get_row(" SELECT * FROM `setting` WHERE `url_config`='".$url_site_name."'"); if($status_site['token_auto_dvfb']=="" || $status_site['status']=="wait"){require ('../pages/active.php');}else{if($themes_login=="rand"){$rand=rand(1,4); require ("../pages/login-v$rand.php");}elseif($themes_login=="1"){require ("../pages/login-v1.php");}elseif($themes_login=="2"){require ("../pages/login-v2.php");}elseif($themes_login=="3"){require ("../pages/login-v3.php");}elseif($themes_login=="4"){require ("../pages/login-v4.php");}
+
+elseif($themes_login=="5"){require ("../pages/login-v5.php");}
+elseif($themes_login=="6"){require ("../pages/login-v6.php");}
+}?>
